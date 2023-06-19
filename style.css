@@ -2,31 +2,32 @@ body{
     background-color: rgb(245, 245, 245);
 }
 nav {
-    background-color: rgb(245, 245, 245);
+  background-color: rgb(245, 245, 245);
   color: #000000;
   display: flex;
   justify-content: center;
   font-weight: 750;
+  height: 20vh;
+  margin-bottom: -40px;
 }
 
 nav ul {
-  margin: -5px;
-  padding: -10px;
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: -10px;
 }
-input{
-   width: 1.15em;
+input[type="radio"]{
+  width: 1.15em;
   height: 1.15em;
-  border: 1.15em solid currentColor;
-  border-radius: 50%;
+  border: 2.15em solid currentColor;
+  border-radius: 100%;
   visibility: visible;
-}
-nav ul li {
-  padding: 5px;
+  outline: none;
+  box-shadow: none;
+  border-color: transparent;
+  list-style: none;
 }
 
 nav ul li a {
@@ -42,10 +43,11 @@ nav ul li:not(:last-child) {
 }
 
 .logo {
-  margin: 0;
-  margin-left: 150px;
-  padding: 10PX;
-  margin-bottom: -10px;
+  top: 0;
+  margin-left:70%;
+  padding: 10px;
+  margin-top: 30px;
+  right: 1;
 }
 
 .logo img {
@@ -143,6 +145,7 @@ hr {
   text-align: flex-start;
   margin-left: 5%;
   background-color: rgb(248, 248, 248);
+  font-weight: 100;
 }
 
 #card1{
@@ -160,18 +163,20 @@ hr {
 #footerHR{
   text-align: left;
   margin-left: 0;
+  width: 50%;
 
 }
 footer{
+  font-weight: bolder;
   margin-left: 30px;
 }
 footer .fa {  
-  padding: 20px;  
   text-align: center;  
   margin: 5px 2px;  
   font-size: 20px;
   border-radius: 100px;  
   width: 20px;  
+  text-decoration: none;
 }  
 .fa-facebook {  
   background: transparent;  
