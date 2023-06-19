@@ -4,8 +4,6 @@
 <title>Home</title>
 <link rel="styleSheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
 <header>
@@ -14,7 +12,7 @@
       <li><a href="#">Home</a></li>
       <li><a href="#">Shop</a></li>
       <li><a href="#">News</a></li>
-      <li class="logo"><img src="aa.PNG" alt="Logo"></li>
+      <li class="logo"><img src="circle-logo-png.png" alt="Logo"></li>
       <li><a href="#">About Us</a></li>
       <li><a href="#">Services</a></li>
       <li><a href="#"><button style="background-color: black; color: white;">Login</button></a></li>
@@ -26,15 +24,17 @@
 
 <div class="section1">
     <div class="sentenses">
+        <img src="time.PNG" alt="photo" style="margin-left:128% ; border-radius: 5px; margin-bottom: -70%;">
         <br>
         <br>
         <h1>GUC<br>Gets</h1>
         <h3>Food!Delivered</h3>
-   <p> <button>Order Now</button><span style='font-size:30px;'>&#8594;</span> <button>Order Process</button> </p>
+    <button>Order Now</button> 
+    <span style='font-size:30px;'>&#8594;</span> 
+    <button id="process">Order Process</button>
    <br>
     </div>
     <img id="box" src="Capture3.PNG" alt="photo">
-    <img src="time.PNG" alt="photo" style="margin-left:45% ; margin-top: -7000px; border-radius: 5px;">
     <img src="cart.PNG" alt="photo" style="margin-left:73% ; margin-top:-50px ; border-radius: 5px;">
     <br>
     <br>
@@ -52,7 +52,7 @@
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
                 <span class="fa fa-star"> 190 egp </span>
             </figcaption>
         </figure>
@@ -78,9 +78,9 @@
         </figure>
     </div>
     <div style="text-align: center;">
-    <input type="radio" style="transform: scale(1.5);">
+    <input type="radio" style="transform: scale(1.5);"disabled>
     <input type="radio" checked style=" accent-color: black; transform: scale(1.5);">
-    <input type="radio" style="transform: scale(1.5);">
+    <input type="radio" style="transform: scale(1.5);"disabled>
     </div>
     <hr>
 </div>
@@ -106,10 +106,75 @@ track delivery with map</p>
 </div>
 <div class="section5">
     <h1>Check What People Say</h1>
+    <br>
+    <div id="bigDiv">
+        <div id="card">
+         <img src="cardSquare.PNG" alt="card" style="margin-left: 80%; width: 70px; height: 70px; margin-top: -10%;">
+         <h1>
+         "This is a very nice<br>
+         website. Food was<br>
+         fresh and delicious.<br>
+          service was good as<br>
+          well. I would definitely<br>
+         order from here again.<br>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+          <h1>Rawan</h1>
+        </div>
+        <div id="card1">
+         <img src="cardSquare.PNG" alt="card" style="margin-left: 80%; width: 70px; height: 70px; margin-top: -10%;">
+         <h1>
+         "This is a very nice<br>
+         website. Food was<br>
+         fresh and delicious.<br>
+          service was good as<br>
+          well. I would definitely<br>
+         order from here again.<br>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+         <h1>Rawan</h1>
+        </div>
+       <div id="card2">
+          <img src="cardSquare.PNG" alt="card" style="margin-left: 80%; width: 70px; height: 70px; margin-top: -10%;">
+           <h1>
+          "This is a very nice<br>
+          website. Food was<br>
+          fresh and delicious.<br>
+          service was good as<br>
+          well. I would definitely<br>
+          order from here again.<br>
+           <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star"></span>
+         <h1>Rawan</h1>
+        </div>
+    </div>
+     <br>
+    <div style="text-align: center;">
+    <input type="radio" style="transform: scale(1.5); "disabled>
+    <input type="radio" checked style=" accent-color: black; transform: scale(1.5);">
+    <input type="radio" style="transform: scale(1.5);"disabled>
+    </div>
+    <br>
+    <br>
 </div>
 
 <footer>
-
+<hr id="footerHR">
+  &copy; <em></em> 2023 / Privacy Policy / Terms of use 
+  <br>
+<a href="#" class="fa fa-facebook"></a>  
+<a href="#" class="fa fa-twitter"></a>  
+<a href="#" class="fa fa-linkedin"></a>  
+<a href="#" class="fa fa-telegram"></a>  
 </footer>
 </body>
 </html>
