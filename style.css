@@ -70,7 +70,7 @@ nav button{
 }
 .section1 .sentenses{
     margin-left: 17%;
-    font-size: xx-large;
+    font-size: 6vh;
     margin-right: 750px;
  
 }
@@ -102,7 +102,7 @@ hr {
 }
 
 .section2 figcaption{
-    background-color: #4f4141;
+    background-color: #ffffff;
     margin-top: -5px;
     padding: 3%;
     border-radius: 5px;
