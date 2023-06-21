@@ -126,7 +126,7 @@ hr {
 }
 
 .section4{
-   background-color: #ffffff;
+   background-color: #ff0000;
    margin: 3%;
    display:flex ;
     flex-wrap: wrap;
@@ -135,7 +135,7 @@ hr {
     margin-top: 15%;
    margin-left: 1%;
    font-size: xx-large;
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
 }
 .section4 img{
   width:500px;
